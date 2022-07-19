@@ -6,7 +6,22 @@ body {
 #index {
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url("img/background01.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("img/background01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#index #avatar {
+    margin: auto;
+    background-color: black;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#index #avatar_gif {
+    width: 100%;
 }
