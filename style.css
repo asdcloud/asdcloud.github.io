@@ -13,9 +13,7 @@ body {
 }
 
 #index #avatar {
-    margin: auto;
     background-color: black;
-    position: relative;
     width: 200px;
     height: 200px;
     overflow: hidden;
