@@ -24,3 +24,9 @@ body {
 #index #avatar_gif {
     width: 100%;
 }
+
+#header .navbar {
+    background-color: rgba(0, 0, 0, 0.404);
+    --bs-navbar-color: white;
+    --bs-navbar-brand-color: white;
+}
