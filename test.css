@@ -1,0 +1,8 @@
+body{
+	font-family: 'Averia Serif Libre';
+	margin: auto; 
+	margin-top: 25vh;
+	width: 320px; height: 320px;
+}
+input{ border: 1px solid; }
+td:first-child{ width: 100px; }
