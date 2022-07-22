@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
 #header .navbar {
     background-color: rgba(0, 0, 0, 0.404);
     --bs-navbar-color: white;
@@ -72,4 +76,13 @@ a {
 
 #index #avatar_gif {
     width: 100%;
+}
+
+#index #button {
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    width: 8rem;
+    height: 4rem;
+    color: white;
 }
