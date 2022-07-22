@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-p {
+h5 {
     margin: 0;
 }
 
@@ -84,5 +84,24 @@ p {
     border-style: solid;
     width: 8rem;
     height: 4rem;
+    color: white;
+    transition: 1.0s;
+}
+
+#index #button:hover{
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0 0 30px #b393d3;
+    background-color: black;
+}
+
+#About_me {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("img/background01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     color: white;
 }
