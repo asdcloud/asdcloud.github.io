@@ -105,3 +105,7 @@ h5 {
     overflow: hidden;
     color: white;
 }
+
+#About_me #content{
+    background-color: rgba(0, 0, 0, 0.7);
+}
